@@ -21,6 +21,7 @@
         "scripts": [
           "../node_modules/jquery/dist/jquery.js",
           "../node_modules/bootstrap/dist/js/bootstrap.min.js",
+          "../src/assets/js/parallax-scroll.js",
           "../src/assets/js/slick.min.js",
           "../node_modules/sweetalert2/dist/sweetalert2.all.min.js",
           "../node_modules/izitoast/dist/js/iziToast.min.js"
