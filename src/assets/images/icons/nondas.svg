@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.1"
+   id="svg2"
+   viewBox="0 0 80.000001 80.000001"
+   height="80"
+   width="80">
+  <defs
+     id="defs4" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(0,-972.36216)"
+     id="layer1">
+    <ellipse
+       ry="39.26968"
+       rx="40.276596"
+       cy="1011.5772"
+       cx="40.030529"
+       id="path3336"
+       style="fill:#000000;fill-opacity:1;stroke:none" />
+    <rect
+       rx="20.034693"
+       ry="19.319168"
+       y="977.8634"
+       x="30.557116"
+       height="38.638336"
+       width="40.069386"
+       id="rect3342"
+       style="fill:#ffffff;fill-opacity:1;stroke:none" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:28.88730431px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="34.128521"
+       y="1003.3776"
+       id="text3376"><tspan
+         id="tspan3378"
+         x="34.128521"
+         y="1003.3776"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Atlantic Bentley';-inkscape-font-specification:'Atlantic Bentley'">N</tspan></text>
+    <text
+       id="text3338"
+       y="1041.1627"
+       x="20.810736"
+       style="font-style:normal;font-weight:normal;font-size:14.66667747px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Atlantic Bentley';-inkscape-font-specification:'Atlantic Bentley';fill:#ffffff;"
+         y="1041.1627"
+         x="20.810736"
+         id="tspan3340">Nondas</tspan></text>
+    <path
+       id="path3380"
+       d="m 3.0304576,1007.1578 c -1.588142,7.5451 3.1440193,23.6732 13.3845214,30.8097"
+       style="fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       id="path3382"
+       d="m 30.543719,975.87086 c 0.560135,-3.3878 1.372328,4.79049 1.552154,7.18836 -7.709357,-0.77547 -11.924456,4.0898 -16.723953,8.01168 l -3.329148,-3.25583 c 5.033709,-6.67679 13.003305,-11.61588 18.500947,-11.94421 z"
+       style="fill:#ffffff;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       id="path3384"
+       d="m 19.141246,979.92992 4.00584,8.36198 0.251994,0.0166 -0.185737,-1.02453"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+  </g>
+</svg>

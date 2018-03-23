@@ -1,0 +1,14 @@
+.blocks-main-bytes {
+    flex-wrap: inherit;
+}
+.blocks-bytes {
+    background-color: #235fa9;
+    height: 65px;
+    flex: 0 0 32.333333%;
+    max-width: 24.333333%;
+    margin-top: 17px;
+    margin-bottom: 17px;
+}
+.blocks-bytes-magin {
+    margin-left: 19px;
+}
