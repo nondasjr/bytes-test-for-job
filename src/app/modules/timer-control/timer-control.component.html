@@ -6,25 +6,26 @@
         
         <div class="m-*-auto text-center">
             <button class="btn btn-info col-sm-5 mt-3" 
+                    [disabled]="ticks > 0"
                     *ngIf="ticks === 0 && ticks_controll === 0 else resumeTime" 
                     (click)="start()"> 
                       <img src="../../assets/images/icons/play.svg" alt=""> Start
             </button>
             <ng-template #resumeTime>
-              <button class="btn btn-info col-sm-5 mt-3" [ngClass]="{'disabled': !paused}" 
+              <button class="btn btn-info col-sm-5 mt-3" [disabled]="!paused" 
                       (click)="resume()"> 
                 <img src="../../assets/images/icons/play.svg" alt=""> Resume
               </button>
             </ng-template>
           </div>
         <div class="m-*-auto text-center">
-            <button class="btn btn-info col-sm-5 mt-3"  [ngClass]="{'disabled': paused || ticks === 0}"
+            <button class="btn btn-info col-sm-5 mt-3"  [disabled]="paused || ticks === 0"
                     (click)="pause()"> 
                       <img src="../../assets/images/icons/pause.svg" alt="Clipboard"> Pause
             </button>
         </div>
         <div class="m-*-auto text-center">
-            <button class="btn btn-info col-sm-5 mt-3" [ngClass]="{'disabled': ticks === 0}" 
+            <button class="btn btn-info col-sm-5 mt-3" [disabled]=" ticks === 0" 
                     (click)="stop()"> 
               <img src="../../assets/images/icons/stop.svg" 
                     alt="Clipboard">Reset</button>
