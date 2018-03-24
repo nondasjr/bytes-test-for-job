@@ -38,11 +38,12 @@ export class TimerControlComponent implements OnInit {
   }
  
   start() {
-    this.sub = this.getObservable();
+    if (!this.sub || this.sub.closed) {
+       this.sub = this.getObservable();
+    }
   }
 
   pause() {
-    this.paused = true;
     this.sub.unsubscribe();
     this.ticks_controll  =  this.ticks_controll === 0 ?
                                this.ticks :
@@ -50,7 +51,6 @@ export class TimerControlComponent implements OnInit {
   }
 
   resume() {
-    this.paused = false;
     this.sub = this.getObservable(this.ticks_controll);
   }
 
@@ -66,9 +66,9 @@ export class TimerControlComponent implements OnInit {
   }
   stop() {
     this.sub.unsubscribe();
+    this.sub = undefined;
     this.ticks = 0;
     this.ticks_controll = 0;
-    this.paused = false;
     this._seconds = this.pad(0);
     this._minutes = this.pad(0);
     this._hours = this.pad(0);
