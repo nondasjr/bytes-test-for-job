@@ -6,20 +6,20 @@
         
         <div class="m-*-auto text-center">
             <button class="btn btn-info col-sm-5 mt-3" 
-                    [disabled]="sub || sub?.isStopped"
+                    [disabled]="sub || sub?.closed"
                     *ngIf="!sub else resumeTime" 
                     (click)="start()"> 
                       <img src="../../assets/images/icons/play.svg" alt=""> Start
             </button>
             <ng-template #resumeTime>
-              <button class="btn btn-info col-sm-5 mt-3" [disabled]="!sub?.isStopped" 
+              <button class="btn btn-info col-sm-5 mt-3" [disabled]="!sub?.closed" 
                       (click)="resume()"> 
                 <img src="../../assets/images/icons/play.svg" alt=""> Resume
               </button>
             </ng-template>
           </div>
         <div class="m-*-auto text-center">
-            <button class="btn btn-info col-sm-5 mt-3"  [disabled]="!sub || sub?.isStopped"
+            <button class="btn btn-info col-sm-5 mt-3"  [disabled]="!sub || sub?.closed"
                     (click)="pause()"> 
                       <img src="../../assets/images/icons/pause.svg" alt=""> Pause
             </button>

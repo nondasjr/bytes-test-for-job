@@ -122,14 +122,5 @@ body {
   -webkit-box-shadow: 2px 2px 8px #000;
   -moz-box-shadow: 2px 2px 8px #000;
 }
-.color-default {
-  background-color: #235fa9;
-}
 
-.color-bg-time {
-  background-color: #eef5fd;
-}
-.bg-time-border {
-  border-color: #007bff !important;
-}
 
