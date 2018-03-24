@@ -45,9 +45,7 @@ export class TimerControlComponent implements OnInit {
 
   pause() {
     this.sub.unsubscribe();
-    this.ticks_controll  =  this.ticks_controll === 0 ?
-                               this.ticks :
-                               this.ticks_controll + this.ticks;
+    this.ticks_controll  =  this.ticks;
   }
 
   resume() {
